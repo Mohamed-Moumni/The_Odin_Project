@@ -1,0 +1,6 @@
+THE CSS BOX MODEL
+
+content box: the area where your content is diplayed which can be sized using propreties like width and height
+
+padding box: the padding sits around the content as white space its size can be controlled using padding and related propreties
+
