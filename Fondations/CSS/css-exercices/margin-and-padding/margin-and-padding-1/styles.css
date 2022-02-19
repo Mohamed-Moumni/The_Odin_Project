@@ -5,9 +5,37 @@ body {
   
   .one {
     background: pink;
-    border: 3px solid blue;
+    border: 3px solid bbody {
+        max-width: 600px;
+        margin: 0 auto;
+      }
+      
+      .one {
+        background: pink;
+        border: 3px solid blue;
+        /* CHANGE ME */
+        padding: 32px;
+        margin: 12px;
+      }
+      
+      .two {
+        background: lightblue;
+        border: 3px solid purple;
+        /* CHANGE ME */
+        margin-bottom: 48px;
+      }
+      
+      .three {
+        background: peachpuff;
+        border: 3px solid brown;
+        width: 200px;
+        /* CHANGE ME */
+        padding: 32px;
+        margin-left: auto;
+      }lue;
+    /* CHANGE ME */
     padding: 32px;
-    margin-bottom: 12px;
+    margin: 12px;
   }
   
   .two {
@@ -15,8 +43,6 @@ body {
     border: 3px solid purple;
     /* CHANGE ME */
     margin-bottom: 48px;
-    margin-left: -10px;
-    margin-right: -10px;
   }
   
   .three {
@@ -25,5 +51,5 @@ body {
     width: 200px;
     /* CHANGE ME */
     padding: 32px;
-    margin-left: 340px;
+    margin-left: auto;
   }
