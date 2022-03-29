@@ -4,3 +4,7 @@ content box: the area where your content is diplayed which can be sized using pr
 
 padding box: the padding sits around the content as white space its size can be controlled using padding and related propreties
 
+About Block and inline
+
+display is CSS's most import property for controlling layout. every element has a default display value depending on what
+type od ekement it is The default for most elements is usually block or inline . A block element is often called a block-level element .An inline elment 0 

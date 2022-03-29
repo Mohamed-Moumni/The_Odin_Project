@@ -1,0 +1,68 @@
+.flex-container {
+    display: flex;
+}
+
+
+.sub-button {
+    display: block;
+    color: white;
+    background-color: red;
+    text-decoration: none;
+    width: 200px;
+    text-align: center;
+    
+    border-radius: 5px;
+    margin: 25px auto;
+    font-weight: bold;
+    padding: 20px;
+}
+
+.like-button {
+    background-color: #0099ff;
+    border: 3px solid lightgray;
+}
+
+.comment-button {
+    background-color: #009933;
+    border: 3px solid lightgray;
+}
+
+.Subscribe-button {
+    background-color: red;
+    border: 3px solid lightgray;
+}
+
+.Subscribe-button:hover,
+.Subscribe-button:visited:active {
+    color: lightgray;
+    background-color:  #800000;
+}
+
+.Subscribe-button:active,
+.Subscribe-button:visited:active {
+    color: black;
+    background-color: white;
+}
+ .like-button:hover,
+ .like-button:visited:active {
+     color:lightgray;
+     background-color:  #0039e6;
+ }
+
+ .like-button:active,
+ .like-button:visited:active {
+     color: black;
+     background-color: white;
+ }
+
+ .comment-button:hover,
+ .comment-button:visited:active {
+     color: lightgray;
+     background-color: #004d1a;
+ }
+
+ .comment-button:active,
+ .comment-button:visited:active {
+     color: black;
+     background-color: white;
+ }

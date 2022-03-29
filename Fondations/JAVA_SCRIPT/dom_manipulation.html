@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple DOM example</title>
+  </head>
+  <body>
+      <section></section>
+  </body>
+  <script>
+      const names = ['Chris', 'Li Kang', 'Anne', 'Francesca', 'Mustafa', 'Tina', 'Bert', 'Jada']
+      const para = document.createElement('p');
+      function chooseName(names)
+      {
+          const result = names[Math.floor(Math.random() * names.length)];
+      }
+      para.textContent = chooseName(names);
+      section.innerHTML = ' ';
+      section.appendChild(para);
+  </script>
+</html>
